@@ -11,4 +11,8 @@ public partial class Registration : System.Web.UI.Page
     {
 
     }
+    protected void RegisterButton_Click(object sender, EventArgs e)
+    {
+        Response.Write("Your registration is successful!");
+    }
 }
